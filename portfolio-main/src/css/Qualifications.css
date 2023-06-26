@@ -1,0 +1,31 @@
+.Qualifications table {
+  width: 70%;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
+.Qualifications .traits {
+  width: 30%;
+}
+
+.Qualifications .traits td {
+  border: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .Qualifications .traits {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .Qualifications .traits {
+    width: 70%;
+  }
+
+  .Qualifications .stars {
+    font-size: 13px;
+  }
+}
